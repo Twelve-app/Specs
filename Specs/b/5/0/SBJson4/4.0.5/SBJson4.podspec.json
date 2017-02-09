@@ -19,7 +19,7 @@
   "requires_arc": true,
   "platforms": {
     "ios": "5.0",
-    "macos":"10.7",
+    "osx":"10.7",
     "tvos":"9.0"
   },
   "source_files": "Classes",
