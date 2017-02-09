@@ -17,10 +17,14 @@
   },
   "social_media_url": "http://twitter.com/stigbra",
   "requires_arc": true,
-  "platforms": {
-    "ios": "5.0",
-    "osx": "10.7",
-    "tvos": "10.0"
+  "ios": {
+    "deployment_target": "5.0"
+  },
+  "osx": {
+    "deployment_target": "10.7"
+  },
+  "tvos": {
+    "deployment_target": "10.0"
   },
   "source_files": "Classes",
   "public_header_files": "Classes/SBJson4{,Parser,StreamParser,StreamWriter,Writer,StreamTokeniser}.h"
